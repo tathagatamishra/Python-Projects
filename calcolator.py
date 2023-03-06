@@ -54,7 +54,7 @@ b = Button(f, text="+", padx="28", pady="8", font="lucida 35 bold")
 b.pack(side=LEFT, padx=18, pady=12)
 b.bind("<Button-1>", click)
 
-f.pack()
+f.pack() //pack button
 
 f = Frame(root, bg="grey")
 
